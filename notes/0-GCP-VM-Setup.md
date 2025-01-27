@@ -37,10 +37,10 @@
 		User bs
 		IdentityFile C:\Users\benja\.ssh\gcp
 	```
-	2. Install **Remoter SSH** plugin in VSCode.
+	2. Install **Remote SSH** plugin in VSCode.
 	3. In VSCode Connect to Host (Select Remote-SSH) and the config Host will appear.
 	4. Clone the Github Repo for DEZoomcamp: `git clone https://github.com/DataTalksClub/data-engineering-zoomcamp.git` ensure this is cloned on the VM and not on the local machine, of course.
-	5. Remember, once the remote connection has been established, we can forward the ports from the virtual machine. This allows us to see the applications through the webbrowser on our local vm. Check the docker-compose.yaml file out to find the ports that were configured. 
+	5. Remember, once the remote connection has been established, we can forward the ports from the virtual machine. This allows us to see the applications through the webbrowser on our local machine. Check the docker-compose.yaml file out to find the ports that were configured. 
 6.  **Terraform**
 	1. Website for the binary, we don't need a package manager: https://developer.hashicorp.com/terraform/install?product_intent=terraform 
 		1. Download the binary: `wget https://releases.hashicorp.com/terraform/1.10.5/terraform_1.10.5_linux_amd64.zip`
