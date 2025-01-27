@@ -1,1 +1,1 @@
-test for pulling
+This repository will act as my hub for homework and notes for the 2025 DE Zoomcamp Bootcamp
